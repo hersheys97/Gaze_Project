@@ -31,18 +31,12 @@ public class CameraMovement : MonoBehaviour
     private PlayerMovement playerScript;
     private float lastMoveDirection = 1f; // Store last movement direction for smooth transition
 
-    private AudioSource music;
-
     void Start()
     {
         // Get player's components
         spriteRenderer = player.GetComponent<SpriteRenderer>();
         rb = player.GetComponent<Rigidbody2D>();
         playerScript = player.GetComponent<PlayerMovement>();
-        music = GetComponent<AudioSource>();
-
-        music.Play();
-        Debug.Log("Music: " + music);
 
         // Set default offsets when starting the game
         targetVerticalOffset = verticalOffset;

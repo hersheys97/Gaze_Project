@@ -1,0 +1,28 @@
+# GITIGNORE template for Wwise Project
+
+.backup*
+.cache*
+*.akd
+AkWwiseProjectData.asset
+IncrementalSoundBankData.xml
+
+
+# Ignore temporary files from Wwise
+*.log
+*.bak
+*.prof
+*.wsettings
+*.validationcache
+
+# Added new:
+/.cache/
+/.metadata/
+/GeneratedSoundBanks/
+/WwiseProjectCache/
+/WwiseCache/
+/WwiseData/
+
+# Ignore Generated SoundBanks (Rebuild them instead of storing in Git)
+*.bnk
+*.wem
+Soundbanks/

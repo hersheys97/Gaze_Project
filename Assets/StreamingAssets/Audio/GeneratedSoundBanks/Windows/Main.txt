@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	447814771	Level1Music			\Default Work Unit\Level1Music	
+	1244520465	MedusaWalk			\Default Work Unit\MedusaWalk	
+	3588262038	MedusaJump			\Default Work Unit\MedusaJump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2980316	WalkSound2	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\58\{58D9E872-3806-5995-1342-BC405D14AA60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MedusaWalk\WalkSound2		96096
+	146706649	Level1Music	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\0E\{0E16D72B-F97A-1043-9037-5A9D975C8405}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level1Music		15745060
+	398757656	WalkSound1	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\5A\{5A259BBC-02DD-ECFD-571A-7E149B4FAA05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MedusaWalk\WalkSound1		144096
+	568994502	WalkSound4	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\2C\{2C7FF085-7EC9-EBCC-FEE2-A9E03EC6B6B7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MedusaWalk\WalkSound4		144096
+	658971803	WalkSound3	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\85\{855E8556-F582-40C6-3573-CBCB1615C7FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MedusaWalk\WalkSound3		96096
+	668436781	WalkSound5	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\D7\{D7501D07-98FF-B98F-8EDE-77901E3049BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MedusaWalk\WalkSound5		96096
+	865458421	MedusaJump	D:\Unity Projects\Gaze\Gaze_WwiseProject\.cache\D9\{D92CF02C-9A75-9064-2AD0-59D56AEAD18E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MedusaJump		237984
+

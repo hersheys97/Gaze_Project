@@ -56,24 +56,14 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpReleased;
     public bool isBlocking;
 
-    public AudioClip jumpSound;
-    public AudioSource sfx; //Still required with AudioClip to output audio
-
-    //public AK.Wwise.Event Level1Music;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        sfx = GetComponent<AudioSource>();
 
         currentHealth = maxHealth;
         // Add logic to save health and take health from the saves
-
-
-        // Audio stuff
-        //AkUnitySoundEngine.PostEvent("Level1Music", 447814771);
     }
 
     void Update()
@@ -134,7 +124,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        sfx.PlayOneShot(jumpSound);
         rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce);
         hasJumped = true;
     }

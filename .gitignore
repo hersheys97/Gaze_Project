@@ -70,3 +70,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# New - Ignore Unity's Wwise integration auto-generated files
+Assets/Wwise/Editor/WwiseTypes.cs
+Assets/Wwise/Editor/WwiseIDBank.cs
+Assets/Wwise/Editor/WwiseSettings.asset
+Assets/Wwise/Editor/WwisePicker.cs.meta
+Assets/Wwise/API/Runtime/*_generated.cs

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABCE90CE-51D3-4DF1-9358-0AD9C864093F}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{ABCE90CE-51D3-4DF1-9358-0AD9C864093F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Level1Music" ID="{8B883C9E-2A16-4A51-AE40-A1D5E4A8A631}">
+					<ChildrenList>
+						<Action Name="" ID="{E46CE5E1-75B6-4BE2-A778-AA7D57097B6D}" ShortID="239585375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level1Music" ID="{37534694-9987-4DA5-AA8F-11B49F9ABEE7}" WorkUnitID="{329883D9-347B-437D-AC7E-7F516966FB43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MedusaWalk" ID="{A502151C-AF8D-4558-A34A-C994F2E419F7}">
+					<ChildrenList>
+						<Action Name="" ID="{9456B967-ECA2-44E8-A96C-EC411055C729}" ShortID="542795786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MedusaWalk" ID="{4C3F7384-FC03-4553-9893-4751812B0E99}" WorkUnitID="{329883D9-347B-437D-AC7E-7F516966FB43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MedusaJump" ID="{A67DE319-A701-4E6F-AFD0-1C94FB46A829}">
+					<ChildrenList>
+						<Action Name="" ID="{AB6F8E68-C1F3-4291-9BC5-D862E68E9718}" ShortID="395217621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MedusaJump" ID="{B26D2C14-927F-4377-8A1C-086641488906}" WorkUnitID="{329883D9-347B-437D-AC7E-7F516966FB43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

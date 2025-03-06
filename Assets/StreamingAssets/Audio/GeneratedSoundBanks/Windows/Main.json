@@ -1,0 +1,135 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{79353145-7805-4833-BE6D-696B75EF110F}",
+    "Language": "SFX",
+    "Hash": "{CCDE0096-4C8E-55D5-9066-5E34FA4E8941}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "2980316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkSound2.wav",
+      "CachePath": "58/{58D9E872-3806-5995-1342-BC405D14AA60}.wem"
+     },
+     {
+      "Id": "146706649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BG1.wav",
+      "CachePath": "0E/{0E16D72B-F97A-1043-9037-5A9D975C8405}.wem"
+     },
+     {
+      "Id": "398757656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkSound1.wav",
+      "CachePath": "5A/{5A259BBC-02DD-ECFD-571A-7E149B4FAA05}.wem"
+     },
+     {
+      "Id": "568994502",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkSound4.wav",
+      "CachePath": "2C/{2C7FF085-7EC9-EBCC-FEE2-A9E03EC6B6B7}.wem"
+     },
+     {
+      "Id": "658971803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkSound3.wav",
+      "CachePath": "85/{855E8556-F582-40C6-3573-CBCB1615C7FA}.wem"
+     },
+     {
+      "Id": "668436781",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkSound5.wav",
+      "CachePath": "D7/{D7501D07-98FF-B98F-8EDE-77901E3049BE}.wem"
+     },
+     {
+      "Id": "865458421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JumpSound.wav",
+      "CachePath": "D9/{D92CF02C-9A75-9064-2AD0-59D56AEAD18E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "447814771",
+      "Name": "Level1Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Level1Music",
+      "GUID": "{8B883C9E-2A16-4A51-AE40-A1D5E4A8A631}",
+      "DurationType": "OneShot",
+      "DurationMin": "82.00502",
+      "DurationMax": "82.00502",
+      "MediaRefs": [
+       {
+        "Id": "146706649"
+       }
+      ]
+     },
+     {
+      "Id": "3588262038",
+      "Name": "MedusaJump",
+      "ObjectPath": "\\Events\\Default Work Unit\\MedusaJump",
+      "GUID": "{A67DE319-A701-4E6F-AFD0-1C94FB46A829}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.239",
+      "DurationMax": "1.239",
+      "MediaRefs": [
+       {
+        "Id": "865458421"
+       }
+      ]
+     },
+     {
+      "Id": "1244520465",
+      "Name": "MedusaWalk",
+      "ObjectPath": "\\Events\\Default Work Unit\\MedusaWalk",
+      "GUID": "{A502151C-AF8D-4558-A34A-C994F2E419F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.75",
+      "MediaRefs": [
+       {
+        "Id": "2980316"
+       },
+       {
+        "Id": "398757656"
+       },
+       {
+        "Id": "568994502"
+       },
+       {
+        "Id": "658971803"
+       },
+       {
+        "Id": "668436781"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{07B35AB1-905D-DCF2-5A32-641DCA6FBB45}"
+ }
+}
