@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Track Wwise Plugin files using Git LFS
+Assets/Wwise/API/Runtime/Plugins/**/*.bundle.dSYM/Contents/Resources/DWARF/* filter=lfs diff=lfs merge=lfs -text
