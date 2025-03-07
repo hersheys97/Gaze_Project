@@ -89,3 +89,6 @@ Assets/Wwise/API/Runtime/*_generated.cs
 /[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/*.pdb
 
 *.meta
+
+# Remove if you need Mac
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Mac/
