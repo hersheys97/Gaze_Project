@@ -77,3 +77,15 @@ Assets/Wwise/Editor/WwiseIDBank.cs
 Assets/Wwise/Editor/WwiseSettings.asset
 Assets/Wwise/Editor/WwisePicker.cs.meta
 Assets/Wwise/API/Runtime/*_generated.cs
+
+# Wwise debug files
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86/Debug/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86/Release/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86_64/Debug/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86_64/Profile/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/*.pdb
+/[Aa]ssets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/*.pdb
+
+*.meta

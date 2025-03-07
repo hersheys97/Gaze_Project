@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class MedusaWalk : MonoBehaviour
+public class MedusaSfx : MonoBehaviour
 {
     private uint bankID;
     private Animator animator;
